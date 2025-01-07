@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var videoPlayer = document.getElementById('videoPlayer');
     var channels = [
-        { name: 'Channel 1', url: 'add your m3u8 link here' },//add your channel name and links
-        { name: 'Channel 2', url: 'add your m3u8 link here' },
-        { name: 'Channel 3', url: 'add your m3u8 link here' }
+        { name: 'Channel 1', url: 'http://10.27.10.141/hls/main1/playlist.m3u8' },//add your channel name and links
+        { name: 'Channel 2', url: 'http://10.27.10.142/hls/main1/playlist.m3u8' },
+        { name: 'Channel 3', url: 'http://10.27.10.140/hls/main0/playlist.m3u8' }
         
         
     ];
